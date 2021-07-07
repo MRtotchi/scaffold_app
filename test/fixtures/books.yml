@@ -1,0 +1,21 @@
+# == Schema Information
+#
+# Table name: books
+#
+#  id         :integer          not null, primary key
+#  isbn       :string
+#  price      :integer
+#  title      :string
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+one:
+  title: MyString
+  isbn: MyString
+  price: 1
+
+two:
+  title: MyString
+  isbn: MyString
+  price: 1
